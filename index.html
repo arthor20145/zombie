@@ -187,11 +187,11 @@ const W=[
  {n:'MINIGUN',mag:200,dmg:14,rate:.05,auto:1,rec:.006,spr:.03,rl:3.5,points:35},
  {n:'COUTEAU',mag:1,dmg:180,rate:.65,auto:0,rec:.03,spr:0,rl:.8,points:45,knife:1}
 ];
-const A=[{ammo:30,res:120},{ammo:15,res:75},{ammo:6,res:24},{ammo:5,res:15},{ammo:0,res:0},{ammo:1,res:0}];
+const A=[{ammo:30,res:120},{ammo:12,res:75},{ammo:6,res:24},{ammo:5,res:15},{ammo:0,res:0},{ammo:1,res:0}];
 let cur=0,reload=0,swap=0,nextShot=0,heat=0,kick=0,flashT=0,held=0,fired=0,adsHeld=0,adsT=0,bobT=0,lastStep=0,T=0;
 let hasMini=false,gren=3,strikes=0,uav=0,rage=0,shake=0,gCool=0;
 let owned=[false,true,false,false,false,true],bossDropIndex=0;
-const SHOP_MAX={hp:3,ammo:5,reload:3,damage:3,speed:3};
+const SHOP_MAX={hp:3,ammo:99,reload:3,damage:3,speed:3};
 const SHOP_CFG={
  hp:{label:'PV max +25',desc:'Augmente tes PV maximums de 25.',base:250,growth:1.5},
  ammo:{label:'Munitions +60',desc:'Ajoute 60 munitions à chaque arme débloquée.',base:150,growth:1.35},
